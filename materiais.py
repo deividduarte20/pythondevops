@@ -11,6 +11,12 @@ materiais = ['Teclado', 'Mouse', 'Pen Drive', 'Notebook']
 for indice,materials in enumerate(materiais):
     print(f'[{indice}]: {materials}')
 
+produto = int(input('Digite o número correspondente ao material desejado: '))
+if produto >= 0 and produto <= len(materiais):
+    print(f'O produto escolhido é {materiais[produto]}')
+else:
+    print(f'Produto inválido')
+
 
 '''
 print(cardapio[0])
