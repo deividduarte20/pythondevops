@@ -1,7 +1,5 @@
 # Copiado do arquivo for.py
 
-# cardapio = ['Carne', 'Queijo', 'Frango', 'Calabresa', 'Pizza', 'Carne Seca']
-
 print('Loja de materiais de informática')
 print('----------------------------------')
 print('')
