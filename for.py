@@ -11,3 +11,4 @@ print('Veja o nosso cardapio')
 print('----------------------')
 for recheio in cardapio:
     print(f'O recheio do pastel é de {recheio}')
+
