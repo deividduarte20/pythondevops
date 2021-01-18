@@ -1,0 +1,13 @@
+{
+    "estabelecimento": "Pastelaria Devops",
+    "pedidos": [
+        {
+            "cliente": "Carlos",
+            "Valor": 24.0
+        },
+        {
+            "cleinte": "Joao",
+            "valor": 34.0
+        }
+    ]
+}
