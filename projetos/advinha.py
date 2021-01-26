@@ -5,7 +5,7 @@ chances = 7
 tentativas = 1
 jogador = ''
 # Sistema sorteará um número entre 1 e 100
-numero_secreto = random.randint(1,100)
+numero_secreto = random.randint(1,15)
 
 print('#######################################')
 print('Bem vindo ao jogo de advinhação')
@@ -14,7 +14,7 @@ print('#######################################')
 
 # programa solicita o nome do jogador
 jogador = input('Digite seu nome: ')
-print('Chute um número entre 1 e 100')
+print('Chute um número entre 1 e 15')
 
 while tentativas <= 7:
     chute = int(input('Digite o número: '))
