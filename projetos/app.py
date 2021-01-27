@@ -1,8 +1,4 @@
-from flask import flask
-from flask import Resource, Api
+import media_escolar
 
-app = Flask(_name_)
-api = Api(app)
-
-class Hoteis(Resource):
-    def get(self):
+resultado = media_escolar.media(8,9,7,9)
+print(resultado)
