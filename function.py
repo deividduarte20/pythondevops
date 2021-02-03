@@ -19,8 +19,26 @@
 
 # boas_vindas('Maria', 4)
 
-def boas_vindas(nome,quantidade=6):
-    print(f'Olá {nome}.')
-    print(f'Temos {quantidade} laptops em estoque')
+# Argumento que define valor é default
+# Argumento sem valor é não default
 
-boas_vindas('Maria')
+# def boas_vindas(nome,quantidade=6):
+#     print(f'Olá {nome}.')
+#     print(f'Temos {quantidade} laptops em estoque')
+
+# boas_vindas('Maria')
+
+# Functions (Funções)
+    # DRY - Don't repeat youself
+    # Realizam uma tarefa
+    # Calcula e retorna um valor
+
+def cliente1(nome):
+    print(f'Olá {nome}')
+
+cliente1('Maria')
+
+def cliente2(nome):
+    return f'Olá {nome}'
+
+print(cliente2('José'))
