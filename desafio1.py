@@ -8,10 +8,10 @@ Altura * Largura = Metros quadrados / pelo rendimento da lata
 '''
 
 def pintura():
-    lata = int(input('Qual é o rendimento da lata? '))
+    rendimento = int(input('Qual é o rendimento da lata? '))
     altura = float(input('Qual a altura da parede? '))
     largura = float(input('Qual a largura da parede? '))
-    resultado = (altura * largura) / lata
+    resultado = (altura * largura) / rendimento
     return f'Você precisa de {resultado} latas de tinta'
 
 print(pintura())
