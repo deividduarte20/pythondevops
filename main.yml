@@ -1,0 +1,19 @@
+---
+
+- hosts: all
+
+  tasks:
+
+    - name: Instalando pacotes
+  apt: name={{ item }} state=latest
+  with_items:
+    - zabbix_agent
+    - nmap
+  
+    - name: Copiando arquivo zabbix_agent
+  coy: src=/etc/zabbix/zabbix_agentd.conf dest=/etc/zabbix
+
+- name: Garantindo que o serviço está habilitado e em execução
+  service: name=zabbix_agentd state=started enabled=yes
+
+...
