@@ -1,0 +1,20 @@
+---
+
+- hosts: www
+  remote_user: deivid
+  become_user: yes
+  tasks:
+    - name: INstalacao do Apache
+      apt:
+        name: apache2
+          state:latest
+        notify: restart apache
+      hadlers:
+        - name: restart apache
+          systemctl:
+            name: apache2
+            state: restarted
+  
+
+
+...
