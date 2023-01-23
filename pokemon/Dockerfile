@@ -5,5 +5,6 @@ COPY api_poke.py /app
 COPY requirements.txt requirements.txt
 RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
+COPY * /app
 
 CMD [ "python3", "./api_poke.py" ]
