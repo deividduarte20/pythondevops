@@ -1,6 +1,6 @@
 # Sistema calculo de consumo de energia
 
-horas = int(input("Quantas horas por dia usará o ar condicionado? "))
+horas = int(input("Quantas horas por dia usará o seu equipamento? "))
 
 dia_mes = int(input("Quantos dias por mês? "))
 
